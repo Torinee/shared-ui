@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "jsx": "react-jsx",
+      "declaration": true, // Tạo file .d.ts
+      "declarationDir": "./dist/types", // Đường dẫn xuất file .d.ts
+      "outDir": "./dist", // Đường dẫn xuất bundle
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
