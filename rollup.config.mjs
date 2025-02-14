@@ -24,6 +24,7 @@ export default {
             sourcemap: true
         }
     ],
+    external: ['styled-components', 'react', 'react-dom'],
     plugins: [
         peerDepsExternal(), // Đảm bảo peerDependencies không bị bundle
         resolve({

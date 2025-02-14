@@ -19,8 +19,8 @@ const Input = () => {
 };
 
 const Container = styled.div`
-    width: '100%';
-    height: 300;
+    width: 100%;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
